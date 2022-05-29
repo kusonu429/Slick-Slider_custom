@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: brown;
+}
+
+
+
+.inner{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.boxex{
+    width: 100%;
+ 
+
+}
+
+
+.product{
+    border: 1px solid #000;
+    width: 80%;
+}
+
+
+/* arrow customize  */
+
+.slider .slick-prev:before, .slider .slick-next:before {
+
+    font-family: 'fontawesome';
+    font-size: 100px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+
+.slider .slick-next:before{
+  content: '\f101';
+}
+
+.slider .slick-prev:before{
+    content: '\f100';
+}
